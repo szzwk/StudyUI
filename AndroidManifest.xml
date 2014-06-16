@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.york.demo.studyui"
+      android:versionCode="1"
+      android:versionName="1.0">
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".StudyUI"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+		<activity android:name=".List"
+                  android:label="@string/app1">
+        </activity>
+		
+		<activity android:name=".Grid"
+                  android:label="@string/app2">
+        </activity>
+        
+        <activity android:name=".Edit"
+                  android:label="@string/app3">
+        </activity>
+        
+        <activity android:name=".Web"
+                  android:label="@string/app4">
+        </activity>
+        
+        <activity android:name=".Component"
+                  android:label="@string/app5">
+        </activity>
+    </application>
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    
+</manifest>

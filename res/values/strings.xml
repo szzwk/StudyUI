@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, StudyUI!</string>
+    <string name="app_name">用户界面学习</string>
+    <string name="app1">列表</string>
+    <string name="app2">九宫格</string>
+    <string name="app3">文本编辑</string>
+    <string name="app4">WebView</string>
+    <string name="app5">自定义组件</string>
+</resources>
