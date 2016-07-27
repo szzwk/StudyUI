@@ -22,6 +22,7 @@ public class Grid extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.grid);	
 		
+        
 		Log.e("HUAN", "Grid onCreate");
 		
 		GridView gridview = (GridView) findViewById(R.id.gridview);     
